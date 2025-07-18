@@ -20,8 +20,6 @@ BookBuddy is a React-based prototype that helps users discover books they'll lov
 
 1. **Clone the repo**
 
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin (https://github.com/undrea717/BookBuddyApp.git)
-git push -u origin master
+```bash
+git clone https://github.com/undrea717/BookBuddyApp.git
+cd BookBuddyApp
