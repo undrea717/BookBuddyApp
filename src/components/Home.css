@@ -1,0 +1,44 @@
+.container {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 2rem;
+    color: white;
+  }
+  
+  form {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  label {
+    margin-right: 1rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }

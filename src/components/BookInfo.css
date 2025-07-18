@@ -1,0 +1,29 @@
+.book-info {
+    text-align: center;
+  }
+  
+  .book-info img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .book-info h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .book-info p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+  }
+  
+  .book-info button {
+    margin-top: 0.5rem;
+    background-color: #7c3aed;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
